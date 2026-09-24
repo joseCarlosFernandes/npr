@@ -55,7 +55,7 @@ char desempilha(){
 }
 
 char olhaTopo(){
-    if (topo == NULL){ //se o topo não tiver valor
+    if (topo == NULL){ //se não existir topo (pilha vazia)
         return '\0';
     }
     return topo->itens;//retorna o valor que ocupa atualmente o topo
